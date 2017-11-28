@@ -147,7 +147,7 @@ div.main-mid {
 
 div.main-mid div {
     border-top: solid 3px rgba(190, 190, 190, 0.589);
-    margin: 5px 2px 5px 2px;
+    margin: 5px 2px 8px 2px;
     padding-top: 2px;
     display: flex;
     width: 100%;
@@ -175,7 +175,7 @@ div.main-right {
     }
 
     input[name="status"] {
-        width: 500px;
+        width: 95%;
         height: 75px;
         margin: 2px 1px 8px 10px;
     } 
