@@ -39,7 +39,7 @@ h5 {
     padding: .5px;
 }
 
-input {
+input[name="search"] {
     width: 125px;
     height: 25px;
     margin: 10px 7px 8px 6px;
@@ -64,17 +64,38 @@ main {
     display: flex;
     flex-direction: column;
     color: black;
-    width: 100%;
+    width: 98%;
+    background-color: rgba(233, 233, 233, 0.884);
+    margin: 2px;
 }
+
+main header {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    color: black;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+input[name="status"] {
+    width: 250px;
+    height: 50px;
+    margin: 2px 1px 8px 10px;
+} 
 
 main div {
     border-top: solid 2px rgba(190, 190, 190, 0.589);
 }
 
 @media all and (min-width: 636px) {
-    input {
+    input[name="search"] {
         width: 400px;
         height: 25px;
         margin: 7px;
+    }
+
+    main {
+
     }
 }
